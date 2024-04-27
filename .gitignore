@@ -1,0 +1,4 @@
+### Carpetas de los volumenes de los contenedores de docker ###
+/mysql/
+/postgres/
+/pgadmin/

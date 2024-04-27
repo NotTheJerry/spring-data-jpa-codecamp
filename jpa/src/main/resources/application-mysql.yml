@@ -1,0 +1,11 @@
+spring:
+    datasource:
+        url: jdbc:postgresql://localhost:5433/data_jpa?createDatabseIfNotExist=true
+        username: root
+        password: root
+        driver-class-name: com.mysql.jdbc.Driver
+    jpa:
+        hibernate:
+            ddl-auto: create-drop
+        database: postgresql
+        show-sql: true
